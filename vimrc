@@ -22,8 +22,6 @@ Plug 'sheerun/vim-polyglot'
 
 Plug 'valloric/youcompleteme'
 
-Plug 'ActivityWatch/aw-watcher-vim'
-
 call plug#end()
 
 " }}}
