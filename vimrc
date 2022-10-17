@@ -14,8 +14,6 @@ Plug 'preservim/nerdtree' "File browser inside vim
 
 Plug 'ryanoasis/vim-devicons' "Cool icons for nerd tree
 
-Plug 'Xuyuanp/nerdtree-git-plugin' "nerd tree customization
-
 Plug 'jdhao/better-escape.vim' "remaps esc key to jj
 
 Plug 'vim-airline/vim-airline'
@@ -23,6 +21,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'sheerun/vim-polyglot'
 
 Plug 'valloric/youcompleteme'
+
+Plug 'ActivityWatch/aw-watcher-vim'
 
 call plug#end()
 
@@ -39,7 +39,7 @@ let g:airline_theme='onedark'
 " }}}
 
 "Plugin Shortucts
-map <Leader>f :NERDTreeToggle<CR>
+map <Leader>f :NERDTreeToggle Github<CR>
 map <Leader>z :UndotreeToggle<CR>
 
 let g:better_escape_shortcut = 'jj'
@@ -52,3 +52,4 @@ let g:undotree_WindowLayout = 2
 
 "General Shortcuts
 nnoremap S :%s//g<Left><Left>
+noremap <Leader>r :w<CR>:! node %<CR>
