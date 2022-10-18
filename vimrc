@@ -12,8 +12,6 @@ Plug 'mbbill/undotree' "Creates an undo tree
 
 Plug 'preservim/nerdtree' "File browser inside vim
 
-Plug 'ryanoasis/vim-devicons' "Cool icons for nerd tree
-
 Plug 'jdhao/better-escape.vim' "remaps esc key to jj
 
 Plug 'vim-airline/vim-airline'
