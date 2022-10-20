@@ -48,4 +48,4 @@ let g:undotree_WindowLayout = 2
 
 "General Shortcuts
 nnoremap S :%s//g<Left><Left>
-noremap <Leader>r :w<CR>:! node %<CR>
+noremap <Leader>r :w<CR>:!clear<CR>:! node %<CR>
