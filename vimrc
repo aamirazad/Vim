@@ -20,6 +20,12 @@ Plug 'sheerun/vim-polyglot'
 
 Plug 'valloric/youcompleteme'
 
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+Plug 'vim-syntastic/syntastic'
+
+Plug 'ryanoasis/vim-devicons'
+
 call plug#end()
 
 " }}}
@@ -32,6 +38,7 @@ set number
 syntax on
 colorscheme onedark
 let g:airline_theme='onedark'
+let g:airline_powerline_fonts = 1
 " }}}
 
 "Plugin Shortucts
