@@ -34,7 +34,7 @@ call plug#end()
 let mapleader=" " "Maps Leader to space
 set encoding=UTF-8
 set mouse=a "Allows mouse usage inside vim.
-set number
+set relativenumber 
 syntax on
 colorscheme onedark
 let g:airline_theme='onedark'
