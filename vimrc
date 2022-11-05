@@ -20,8 +20,6 @@ Plug 'sheerun/vim-polyglot'
 
 Plug 'inkarkat/vim-ingo-library'
 
-Plug 'inkarkat/vim-SpellCheck'
-
 Plug 'valloric/youcompleteme'
 
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
